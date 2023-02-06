@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div{
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: lightgrey;
+  margin: 50px auto;
+}
+div>div{
+  display: flex;
+  column-gap: 5px;
+}
+div>div>*{
+  width: 50%;
+}
+div>div>label{
+  text-transform: capitalize;
+  font-size: 30px;
+  text-align: center;
+}
+div>div input{
+  width: 50%;
+  height: 30px;
+}
+div>div input::placeholder{
+  padding-left: 30px;
+}
+div>div:nth-last-of-type(2){
+  justify-content: flex-end;
+}
+div>div>button{
+  width: 150px;
+  height: 40px;
+  background-color: green;
+  color: whitesmoke;
+  cursor: pointer;
+}

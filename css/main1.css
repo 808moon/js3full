@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.even{
+    width: 150px;
+    height: 150px;
+    background-color: deeppink;
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 5px;
+}
+
+div.odd{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 5px;
+}
